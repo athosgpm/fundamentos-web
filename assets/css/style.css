@@ -1,64 +1,61 @@
-/*
-Estilos da pagina index.html
-*/
-.center {
+/*   Estilos da página index.html*/
+.center{
     text-align: center;
 }
-.justify {
+
+.justify{
     text-align: justify;
 }
-p {
-    font-size: 20px;
-}
-#p2 {
-    font-size: 25px;
-}
-.p3 {
-    font-size: 15px;
-}
-.container {
+.container{
     display: flex;
+    /* row wrap = quebra a linha pra baixo*/
     flex-flow: row;
-    justify-content: center; 
+    /*Centralizando a imagem*/
+    justify-content: center;
+    /*Aling itnes -alinha o texto de acordo com a altura deles*/
     align-items: center;
 }
-
-#menu li {
+#menu li{
     display: inline;
     padding: 20px;
-}
-#menu li a {
     text-decoration: none;
-    color: black;
-    font-size: 20px;
 }
 
-#menu li a:hover {
-    color: gray;
-} 
-
-.p-30 {
+#menu li a{
+    text-decoration: none;
+    color: #0984e3;
+    font-size: 30px;
+}
+#menu li a:hover{
+    color: grey;
+}
+.p-30{
+    /* Dá um espaçamento do texto nas bordas*/
     padding: 30px;
 }
 
-.br-50 {
+.br-50{
     border-radius: 50%;
 }
-.wh-300 {
-    width: 400px;
-    height: 400px;
+
+.wh-300{
+    width: 300px;
+    height: 300px;
+
 }
-.tm-social {
-    width: 30px;
-    height: 30px;
+
+.tm-social{
+    width: 50px;
+    height: 50px;
 }
-.mb-50 {
+
+.mb-50{
     margin-bottom: 50px;
 }
-/*
-Estilos da pagina contato.html
-*/
-
-.ml-50 {
+.ml-50{
     margin-left: 50px;
 }
+
+/*
+    Estilos da página index.html
+*/
