@@ -22,6 +22,7 @@ function validaNome() {
     if (nome.value.length < 3) {
         txtNome.innerHTML = 'Nome Inválido'
         txtNome.style.color = 'red'
+        nomeOK = false
     } else {
         txtNome.innerHTML = 'Nome Válido'
         txtNome.style.color = 'green'
@@ -34,6 +35,7 @@ function validaEmail(){
     if (email.value.indexOf('@') == -1 || email.value.indexOf('.') == -1){
         txtEmail.innerHTML = 'E-mail inválido'
         txtEmail.style.color = 'red'
+        emailOK = false
     } else {
         txtEmail.innerHTML = 'E-mail válido'
         txtEmail.style.color = 'green'
@@ -47,6 +49,7 @@ function validaAssunto(){
         txtAssunto.innerHTML = 'Texto é muito grande'
         txtAssunto.style.color = 'red'
         txtAssunto.style.display = 'block'
+        assuntoOK = false
     } else {
         txtAssunto.style.display = 'none'
         assuntoOK = true
